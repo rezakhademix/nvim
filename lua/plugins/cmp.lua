@@ -107,8 +107,8 @@ return {
                         col_offset = 0,
                         side_padding = 1,
                         winhighlight = "Normal:CmpNormal,FloatBorder:CmpBorder,CursorLine:PmenuSel,Search:None",
-                        max_width = 50, -- New setting for width
-                        max_height = 20, -- New setting for height
+                        max_width = 50,
+                        max_height = 20,
                     },
                 },
                 experimental = {
