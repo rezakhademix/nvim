@@ -105,10 +105,23 @@ return {
                 window = {
                     completion = {
                         col_offset = 0,
+                        border = "rounded",
                         side_padding = 1,
                         winhighlight = "Normal:CmpNormal,FloatBorder:CmpBorder,CursorLine:PmenuSel,Search:None",
                         max_width = 50,
                         max_height = 20,
+                        zindex = 20,
+                        scrollbar = false,
+                    },
+
+                    documentation = {
+                        border = "rounded", -- or 'single', 'double', 'shadow'
+                        side_padding = 1,
+                        max_width = 60,
+                        max_height = 15,
+                        winhighlight = "Normal:CmpDocNormal,FloatBorder:CmpDocBorder",
+                        zindex = 30,
+                        scrollbar = false,
                     },
                 },
                 experimental = {
