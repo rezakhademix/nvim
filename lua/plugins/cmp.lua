@@ -102,6 +102,15 @@ return {
                         return item
                     end,
                 },
+                window = {
+                    completion = {
+                        col_offset = 0,
+                        side_padding = 1,
+                        winhighlight = "Normal:CmpNormal,FloatBorder:CmpBorder,CursorLine:PmenuSel,Search:None",
+                        max_width = 50, -- New setting for width
+                        max_height = 20, -- New setting for height
+                    },
+                },
                 experimental = {
                     experimental = {
                         ghost_text = false,
