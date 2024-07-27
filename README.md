@@ -13,7 +13,7 @@ git clone https://github.com/rezakhademix/nvim ~/.config/nvim
 ```
 
 ## Customization
-* I have some modification in lazyvim default configurations and now it has a better cmp, document/signature highlight and better sytanx and auto-complete.
+* I have some modification in lazyvim default configurations and now it has a better cmp, document/signature highlight and better sytanx, auto-complete and no ghost-text.
 * I changed the default behavior of noice cause it has so bugs on lazyvim.
 * I added database support with dbee/nvim and now you can press <leader>+db to query database and see tables and structures easily.
 * I added lspsignature to make a better and more useful method arguments info while typing.
