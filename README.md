@@ -12,6 +12,27 @@ mv ~/.config/nvim{,.bak}
 git clone https://github.com/rezakhademix/nvim ~/.config/nvim
 ```
 
+## Supported Languages (LSP & DAP & Linter & Formatter)
+* Golang
+* PHP
+
+* Makefile
+* Markdown
+* JSON
+* Spell-Check
+* TypeScript
+* Docker
+* Docker-Compose
+* JavaScript
+* HTML
+* CSS
+* eslint
+* Bash
+* Golang-Linter
+* PHP-CS-Fixer
+* YML
+* Lua
+
 ## Customization
 * I have some modification in lazyvim default configurations and now it has a better cmp, document/signature highlight and better sytanx, auto-complete and no ghost-text.
 * I changed the default behavior of noice cause it has so bugs on lazyvim.
