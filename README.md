@@ -32,6 +32,7 @@ git clone https://github.com/rezakhademix/nvim ~/.config/nvim
 * PHP-CS-Fixer
 * YML
 * Lua
+* misspell
 
 ## Customization
 * I have some modification in lazyvim default configurations and now it has a better cmp, document/signature highlight and better sytanx, auto-complete and no ghost-text.
