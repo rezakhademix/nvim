@@ -11,6 +11,7 @@ return {
             "saadparwaiz1/cmp_luasnip",
             "L3MON4D3/LuaSnip",
             "hrsh7th/cmp-nvim-lua",
+            "hrsh7th/cmp-calc",
         },
         opts = function()
             local cmp = require("cmp")
@@ -125,9 +126,7 @@ return {
                     },
                 },
                 experimental = {
-                    experimental = {
-                        ghost_text = false,
-                    },
+                    ghost_text = false,
                 },
                 sorting = defaults.sorting,
             }
