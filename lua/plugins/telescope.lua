@@ -13,6 +13,11 @@ return {
                 sorting_strategy = "ascending",
                 previewer = false,
             },
+            -- show hidden + ignored files (.env, .git, .claude, ...)
+            pickers = {
+                find_files = { hidden = true, no_ignore = true },
+                live_grep = { additional_args = { "--hidden", "--no-ignore" } },
+            },
         },
     },
 }
