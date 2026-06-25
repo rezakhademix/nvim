@@ -1,6 +1,8 @@
 return {
     "mason-org/mason.nvim",
     opts = {
+        -- go/typescript/docker/json/php/yaml/markdown tooling is provided by the
+        -- LazyVim lang extras (see lazyvim.json). Only list tools not covered there.
         ensure_installed = {
             "stylua",
             "shellcheck",
@@ -8,31 +10,14 @@ return {
             "bash-language-server",
             "checkmake",
             "css-lsp",
-            "docker-compose-language-service",
-            "dockerfile-language-server",
-            "eslint-lsp",
-            "go-debug-adapter",
-            "goimports",
-            "golangci-lint",
-            "golangci-lint-langserver",
-            "gopls",
-            "gotests",
             "html-lsp",
             "htmlhint",
-            "iferr",
-            "impl",
-            "intelephense",
-            "json-lsp",
             "lua-language-server",
-            "marksman",
-            "misspell",
-            "php-cs-fixer",
-            "prettier",
             "pyright",
-            "typescript-language-server",
-            "vetur-vls",
-            "yaml-language-server",
-            "yamlfmt",
+            "misspell",
+            "gotests", -- go.nvim test generation (not in go extra)
+            "iferr",
+            "vetur-vls", -- Vue (no vue extra enabled)
         },
     },
 }
